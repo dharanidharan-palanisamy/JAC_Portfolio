@@ -40,12 +40,12 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 flex items-center justify-between">
         {/* Brand Logo */}
         <Link href="/client" className="group flex items-center space-x-3">
-          <div className="relative w-14 h-14 sm:w-16 sm:h-16 overflow-hidden flex-shrink-0 flex items-center justify-center mix-blend-multiply dark:mix-blend-screen">
+          <div className="relative w-9 h-9 sm:w-10 sm:h-10 flex-shrink-0 flex items-center justify-center">
             <Image
-              src="/1778475141580.webp"
+              src="/logo-icon-raw.png"
               alt="JAC MediaLand Logo"
               fill
-              className="object-contain scale-[3.2] origin-[50%_30%] dark:invert hue-rotate-15 brightness-125 saturate-150"
+              className="object-contain dark:invert"
             />
           </div>
           <span className="text-xl sm:text-2xl font-black tracking-tighter text-zinc-900 dark:text-white group-hover:text-zinc-600 dark:group-hover:text-zinc-300 transition-colors">

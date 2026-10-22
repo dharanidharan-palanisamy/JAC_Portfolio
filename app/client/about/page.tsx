@@ -63,12 +63,12 @@ export default function AboutPage() {
               EST. 2022
             </span>
             <div className="flex items-center gap-4">
-              <div className="relative w-16 h-16 overflow-hidden flex items-center justify-center shrink-0 mix-blend-multiply dark:mix-blend-screen">
+              <div className="relative w-12 h-12 flex items-center justify-center shrink-0">
                  <Image
-                    src="/1778475141580.webp"
+                    src="/logo-icon-raw.png"
                     alt="Logo"
                     fill
-                    className="object-contain scale-[3.2] origin-[50%_30%] dark:invert"
+                    className="object-contain dark:invert"
                   />
               </div>
               <div>

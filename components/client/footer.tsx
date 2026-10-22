@@ -23,12 +23,12 @@ export function Footer() {
           {/* Studio Brand & Tagline */}
           <div className="md:col-span-5 space-y-2">
             <Link href="/client" className="inline-flex items-center space-x-3">
-              <div className="relative w-16 h-16 sm:w-20 sm:h-20 overflow-hidden flex-shrink-0 flex items-center justify-center mix-blend-multiply dark:mix-blend-screen">
+              <div className="relative w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0 flex items-center justify-center">
                 <Image
-                  src="/1778475141580.webp"
+                  src="/logo-icon-raw.png"
                   alt="JAC MediaLand Logo"
                   fill
-                  className="object-contain scale-[3.2] origin-[50%_30%] dark:invert"
+                  className="object-contain dark:invert"
                 />
               </div>
               <div className="flex flex-col">
